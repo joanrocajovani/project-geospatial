@@ -30,7 +30,7 @@ From the companies database I got 3 filtered tables with the previous requisites
 ![country_funded](https://user-images.githubusercontent.com/114917673/199007944-98342730-ce95-4641-83f7-445dd040c329.JPG)
 
 
-USA was first in all categories, UK was second and Canada 3rd in 2 categories. So I picked those and then I also picked Spain being my own country and one of the fastest-growing tech hubs in southern Europe.
+USA was first in all categories, UK was second and Canada 3rd in 2 categories. So I picked those..
 
 ### Choosing the cities
 
