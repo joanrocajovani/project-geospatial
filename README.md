@@ -25,9 +25,10 @@ Given all these, I decided the three most important aspects were:
 
 From the companies database I got 3 filtered tables with the previous requisites. Then, I wanted to find the countries with most of them.
 
-<img src="images/country_game.jpg" width="100" height="250">
-<img src="images/country_funded.jpg" width="100" height="250">
-<img src="images/country_design.jpg" width="100" height="250">
+![country_game](https://user-images.githubusercontent.com/114917673/199007936-6d416881-0945-4ed7-b79a-91ee6e08dd30.JPG)
+![country_design](https://user-images.githubusercontent.com/114917673/199007940-ed2076e9-6e85-4bcc-9c26-d1023173e3cf.JPG)
+![country_funded](https://user-images.githubusercontent.com/114917673/199007944-98342730-ce95-4641-83f7-445dd040c329.JPG)
+
 
 USA was first in all categories, UK was second and Canada 3rd in 2 categories. So I picked those and then I also picked Spain being my own country and one of the fastest-growing tech hubs in southern Europe.
 
@@ -35,20 +36,22 @@ USA was first in all categories, UK was second and Canada 3rd in 2 categories. S
 
 From there I wanted to pick one city for each of the countries. Since the US had much more companies than any other country, I analyzed the US cities separatedly.
 
-**Insert Table**
-
-From the US I chose NY and from the rest of companies I chose Toronto, London and Barcelona.
+NY and San Francisco were 1st and 2nd in all 3 categories but I chose NY because the city had more design companies. For the rest of the countries I chose London, which was first in all categories, and Toronto, which was the Canadian city with most companies in 2 out of 3 categories.
 
 Next, I joined the 3 tables for each city and plotted all the companies on a map. Then, I chose a location that satisfied the 3 requisites at best.
 
 **New York:**
 
+![NY map](https://user-images.githubusercontent.com/114917673/199011040-cfca8719-3531-44ce-a8e1-6aedae36b921.JPG)
 
 **Toronto:**
 
+![Torontomap](https://user-images.githubusercontent.com/114917673/199011500-3777c380-0453-43cb-a764-b44f8626a580.JPG)
+
 **London:**
 
-**Barcelona**
+![Londonmap](https://user-images.githubusercontent.com/114917673/199011643-8bd0c02f-295f-4240-8072-2a0dc71b2fd6.JPG)
+
 
 Afterwards, using the Foursquare API I calculated the distances to all demanded venues except the dog hairdresser because being something that is not important on a day-to-day basis. The table that I got is the following.
 
@@ -64,5 +67,7 @@ Finally I gave the following wheights to the importance of the venue:
 
 And with the previous weights I created a score ranking the cities from best to worst.
 
+![final table](https://user-images.githubusercontent.com/114917673/199011790-103b7830-dd36-4292-b2c2-9ed5cd28b2d4.JPG)
 
+Finally, NY has the best score, and it also is the city with most design, gaming and financed companies. So the location of the company would be NYC.
 
